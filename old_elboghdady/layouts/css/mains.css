@@ -1,0 +1,140 @@
+body{
+font-family:kufam;}
+.bg-welcome {
+    background-image: url(../img/back.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+.bg-welcome .center {
+    padding-top: 8%;
+    width: 50%;
+    margin: auto;
+}
+
+.bg-welcome h1 {
+    text-align: center;
+    color: #3f3332;
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 120px;
+    padding: 15px 20px 30px;
+    background-color: rgba(183, 155, 109, 0.5);
+    box-shadow: 1px 1px 2px 0 rgba(70, 68, 64, 0.8);
+}
+
+.section8 .nav {
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(1, 5, 7, .09);
+    margin-bottom: 30px;
+}
+
+.section8 .nav-link {
+    display: inline-block;
+}
+
+.section8 .nav-link {
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.5;
+    color: #3f3332;
+    padding: 15px 10px;
+}
+
+.section8 .nav .active {
+    opacity: 1;
+    border-bottom: 4px solid #b79b6d;
+}
+
+.section8 .tab-content #mycourses .row {
+    text-align: right;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgba(1, 5, 7, .09);
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+.section8 .tab-content #mycourses .row h3 {
+    color: #3f3332;
+    font-weight: bold;
+}
+
+.section8 .tab-content #mycourses .row img {
+    width: 100%;
+    height: 100%;
+}
+
+.section8 .tab-content #mycourses .row .progress {
+    width: 85%;
+    background-color: #fff;
+    float: right;
+    margin-top: 10px;
+}
+
+.section8 .tab-content #mycourses .row .bg-danger {
+    background-color: #b79b6d!important;
+}
+
+.section8 .tab-content #mycourses .row button {
+    background-color: #3f3332;
+    border-radius: 30px;
+    padding: 13px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 110px;
+    height: 50px;
+    margin-top: -5px;
+    display: block;
+}
+
+.section8 .tab-content #mycourses .row button a {
+    color: #b79b6d;
+    text-decoration: none;
+}
+
+.section8 .tab-content #avcourse .card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section8 .card .card-img-top {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+.section8 .card .card-body a {
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    color: #3f3332;
+    display: block;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.section8 .card .card-body a:hover {
+    background-color: #3f3332;
+    color: #b79b6d;
+    transition: 0.5s ease-in-out;
+}
+
+.section8 .card .card-body {
+    padding: 0px;
+    margin-bottom: -21px;
+}
+
+#avcourse h2 {
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #3f3332;
+    padding-bottom: 5px;
+}
+
+#avcourse .colord {
+    border-bottom: 4px solid #b79b6d;
+    padding-bottom: 7px;
+}

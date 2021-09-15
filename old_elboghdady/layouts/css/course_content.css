@@ -1,0 +1,74 @@
+
+.dropdown-submenu {
+    position: relative;
+    direction: rtl;
+    font-family:kufam;
+    background-color: #b79b6d;
+    margin-top: 8px;
+}
+.dropdown-item{text-align: right; }
+.dropdown-submenu>.dropdown-menu {
+    top: 60px;
+    left: 0;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 15px 0px 15px 15px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: left;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 15px 17px 8px 5px;
+    border-right-color: #1b1818;
+    margin-top: 11px;
+    margin-right: -10px;
+}
+.dropdown-item:hover{background-color: #b79b6d;}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu a {color: #1b1818;}
+.dropdown-submenu button{
+    text-align: right;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}.dropdown-submenu button:hover {
+    background-color: #b79b6d;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.main_course_button{
+    background-color: #3f3332;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 0;
+}
+.main_course_button a{
+    color: #fff;
+}
+.main_course_button:hover {color: #fff;}
+.buttons .disabled {cursor: no-drop;}
